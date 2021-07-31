@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Foodrecipe from './components/foodrecipe/Foodrecipe'
+import Todolist from './components/todolist/Todolist'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <
+    <div>
+      <Todolist/>
+      <br/>
+      <Foodrecipe/>
+      <div style={{width:"50%",height:"1000px"}}>
+
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

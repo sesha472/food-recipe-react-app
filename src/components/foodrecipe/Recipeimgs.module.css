@@ -1,0 +1,33 @@
+.allitems{
+    background-color: grey;
+    width: 80%;
+    margin:10px auto;
+    border-radius: 5px;
+    display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  box-shadow: 1px 4px 30px blue;
+  padding: 30px;
+}
+img{
+   width: 200px;
+   margin: 10px ;
+   border-radius: 5px;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.itemcard{
+    background-color: rgb(205, 236, 234);
+    padding: 5px;
+    margin: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+
+}
+.itemcard:hover{
+   box-shadow: 1px 2px 4px black;
+
+}
