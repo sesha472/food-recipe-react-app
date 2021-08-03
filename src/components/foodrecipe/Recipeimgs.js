@@ -5,7 +5,7 @@ const Recipeimgs = (props) => {
     console.log(props.imgdata);
     return ( <div className={classes.allitems}  >
             {props.imgdata.map((item,index)=>{
-                 return(<div key={item.index} >
+                 return(<div style={{padding: "30px"}} key={item.index} >
                      <div className={classes.itemcard} >
                      <img src={`${item.recipe.image}`} alt="recipe item" />
                      <p>{item.recipe.source}</p>

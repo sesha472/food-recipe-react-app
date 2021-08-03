@@ -20,7 +20,7 @@ const Foodrecipe = () => {
         <div >
             <form onSubmit={resipidata} className="shadow-lg" style={{width:"50%",margin:"20px auto",backgroundColor:"hotpink",padding:"30px",borderRadius:"10px"}}>
                 <input type="text" value={search} onChange={(e)=>setsearch(e.target.value)} /><br/>
-                <input className="btn btn-info" type="submit"  />
+                <input className="btn btn-info" type="submit" value="Enter recipe name"  />
             </form>
              <Recipeimgs imgdata={data}/>
             

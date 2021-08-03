@@ -5,7 +5,8 @@
     box-shadow: 1px 3px 6px black;
     border-radius: 5px;
     width: 70%;
-    height: 400px;
+    min-height: 200px;
+    max-height: 400px;
     margin: 30px auto;
     overflow: scroll;
   }

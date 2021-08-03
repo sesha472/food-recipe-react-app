@@ -1,0 +1,27 @@
+.maintable{
+    width: 50%;
+    margin: 100px auto;
+    box-shadow: 1px 20px 60px black;
+    border-radius: 10px;
+     text-align: center;
+
+}
+
+.trow{
+
+    background-color: darkorchid;
+    padding: 10px;
+    font-size: 40px;
+   text-align: center;
+
+}
+.coundownheading{
+    background-color: rgb(38, 37, 51);
+    color: floralwhite;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 1px 3px 9px black;
+    padding: 20px;
+    margin: 30px 40px;
+
+}
